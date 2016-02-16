@@ -1,0 +1,33 @@
+<!-- views/pages/about.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+	
+        <div class="jumbotron">
+            <h1><%= Heading %></h1>
+            <p><%= Content %></p>
+			<h2>Loop</h2>
+			<form name="form1" method="post" action="/post" ><br />
+			<label>UserName : <input name="userName" type="email" required /></label><br />
+			<label>Password : <input name="password" type="password" required /></label><br />
+			<button  name="submit" type="submit" >Log in</button>
+			</form>
+		</div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+    
+</body>
+</html>
