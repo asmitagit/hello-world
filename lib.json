@@ -7,3 +7,12 @@
    },
   "engine": "node >=0.6.x"
 }
+{
+  "name": "ExpressApp2",
+  "version": "0.0.1",
+  "description": "A Node.js App using express",
+  "dependencies": {
+	"express": "~4.0.0"
+   },
+  "engine": "node >=0.6.x"
+}
