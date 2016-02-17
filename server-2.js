@@ -1,5 +1,3 @@
-var express = require('express');
-
 /*
  * body-parser is a piece of express middleware that 
  *   reads a form's input and stores it as a javascript
@@ -8,6 +6,9 @@ var express = require('express');
  * 'body-parser' must be installed (via `npm install --save body-parser`)
  * For more info see: https://github.com/expressjs/body-parser
  */
+var express = require('express');
+
+
 var bodyParser = require('body-parser');
 
 // create our app
