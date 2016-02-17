@@ -17,7 +17,6 @@ mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/mydb');
 // instruct the app to use the `bodyParser()` middleware for all routes
-//app.use(bodyParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views', __dirname + '/views');
